@@ -55,6 +55,18 @@ class Graph(object):
             pbar.update(self.nodes-n0)
         pbar.close()
 
+    def hacky_clustering(self):
+        # do a tree-type search
+        visited = np.arange(self.n)
+        clusterIDs = np.arange(self.n)
+        cluster = 0
+        for i in range(self.n):
+            cluster +=1
+            clusterIDs[i] = cluster; visited[i] = 1
+            neighbor_indices = np.where(self.edges>0)[0] # get indices, in np array form
+            clusterIDs[neighbor_indices] = cluster; visited[neighbor_indices] = 1
+            # add
+
     def AP(self):
         '''
         The Achlioptas growth process (AP) [16] adds a layer of competition to

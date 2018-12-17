@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{DPR_paper}
+Alexander~J. Trevelyan, Georgios Tsekenis, and Eric~I. Corwin.
+\newblock Degree product rule tempers explosive percolation in the absence of
+  global information.
+\newblock {\em Physical Review E}, 97(020301), 2018.
+
+\bibitem{AP_paper}
+Dimitris Achlioptas, Raissa~M. D'Souza, and Joel Spencer.
+\newblock Explosive percolation in random networks.
+\newblock {\em Science}, 323(5920):1453--1455, 2009.
+
+\bibitem{NZ_paper}
+M.E.J. Newman and R.M. Ziff.
+\newblock Fast monte carlo algorithm for site or bond percolation.
+\newblock {\em Physical Review E}, 64(016706), 2001.
+
+\end{thebibliography}
